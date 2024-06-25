@@ -59,6 +59,10 @@ Frpc 客户端无特殊需求，只要版本是 0.28.0 都可以兼容使用。
 
 关于面板的安装和使用有不明白的可以加群 478112133 在群里问，但我平时比较忙不一定能看到，随缘解答。
 
+添加一条用户 记录 hadmin  密码是 123456
+INSERT INTO `users`( `username`, `password`, `email`, `traffic`, `proxies`, `group`, `regtime`, `status`) VALUES ( 'hadmin', '$2y$10$IahYkRunKi7RKRf529voxuDKg5vRJ27Jmh8jrB6zyZTTT60Kl0X3m', '43589820@qq.com', 4097, 1, 'admin', '1', '1');
+
+
 ## 交流
 
 - 官方 Telegram 群：https://t.me/natfrp
